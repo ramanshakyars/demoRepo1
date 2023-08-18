@@ -1,0 +1,22 @@
+
+<mat-card class="color">
+    <mat-card-content>
+        <button (click)="opened=!opened" >btn</button>
+
+    </mat-card-content>
+  </mat-card>
+
+  <mat-sidenav-container>
+    <mat-sidenav [(opened)]="opened" mode="side" >
+        <a routerLink="dialog-example">home</a>
+        
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+    
+  </mat-sidenav-container>
+  
+
+
+ 

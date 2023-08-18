@@ -1,0 +1,36 @@
+
+<mat-drawer-container class="example-container" autosize>
+    <mat-card>
+        <mat-card-content class="nav">
+            <div class="example-sidenav-content">
+                <button type="button" mat-button (click)="drawer.toggle()">
+                    <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="menu"></mat-icon>
+                    <!-- <li class="w3-large"><i class="fa fa-home"></i> Home</li> -->
+
+
+                </button>
+              </div>
+        </mat-card-content>
+      </mat-card>
+      
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+      <p class="head">Auto-resizing sidenav</p>
+      <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
+      <button (click)="showFiller = !showFiller" mat-raised-button >
+        Toggle extra text
+      </button>
+    </mat-drawer>
+    <mat-sidenav-container>
+        <mat-sidenav-content>
+            <!-- <p>raman shakya</p> -->
+            <router-outlet></router-outlet>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+    
+    
+    
+</mat-drawer-container>
+
+
+  
+  
