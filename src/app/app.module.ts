@@ -14,8 +14,9 @@ import {MatCardModule} from '@angular/material/card';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './Components/home/home.component';
 import {MatSidenavModule,MatSidenavContent} from '@angular/material/sidenav';
+import { NavbarComponent } from './Components/navbar/navbar.component';
 // import {  } from '@angular/material/sidenav'; 
 
     
@@ -37,6 +38,7 @@ import {MatSidenavModule,MatSidenavContent} from '@angular/material/sidenav';
     DialogExampleComponent,
     HeaderComponent,
     HomeComponent,
+    NavbarComponent,
    
   ],
   imports: [
