@@ -1,0 +1,22 @@
+<div class="glossarydata">
+    <div
+      *ngFor="let group of filteredGlossary"
+      [id]="glossaryGroupNameGenrator(group.name)"
+    >
+      <h2>{{ group.name }}</h2>
+      <ul>
+        <li *ngFor="let item of group.descriptions">
+          <p>{{ item.Term }}</p>
+          <p>{{ item.Definition }}</p>
+          <p>{{ item.Example }}</p>
+
+          <hr />
+
+          <div *ngFor="let item of group.Example">
+            <p>{{ item.type }}</p>
+            <p>{{ item.description }}</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>

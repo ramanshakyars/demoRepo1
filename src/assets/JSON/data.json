@@ -1,0 +1,66 @@
+{
+  "data": [
+    {
+      "name": "A",
+      "descriptions": [
+        {
+          "Term": "Ad hoc Arbitration",
+          "Definition": "Ad hoc arbitration means involved agree on the arbitration process themselves.",
+          "Example": "Imagine   to ensure fairness and structure during the arbitration."
+        },
+        {
+          "Term": "Adjudication",
+          "Definition": "Adjudication  decision.",
+          "Example": "Imagine  later."
+        },
+        {
+          "Term": "Arbitration Hearing",
+          "Definition": "An arbitration hearing is  in two ways:",
+          "Example": [
+            {
+              "type": " (a) In-Person (Oral) Arbitration Hearing",
+              "description": "Consider this a face-to-face or  decision.",
+              "example": " If  decision."
+            },
+            {
+              "type": "(b) Arbitration based on Written Submissions",
+              "description": "The  directly.",
+              "example": "If there is a y have sent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "A",
+      "descriptions": [
+        {
+          "Term": "Ad hoc Arbitration",
+          "Definition": "Ad hoc arbitration means involved agree on the arbitration process themselves.",
+          "Example": "Imagine   to ensure fairness and structure during the arbitration."
+        },
+        {
+          "Term": "Adjudication",
+          "Definition": "Adjudication  decision.",
+          "Example": "Imagine  later."
+        },
+        {
+          "Term": "Arbitration Hearing",
+          "Definition": "An arbitration hearing is  in two ways:",
+          "Example": [
+            {
+              "type": " (a) In-Person (Oral) Arbitration Hearing",
+              "description": "Consider this a face-to-face or  decision.",
+              "example":[
+                {
+                    "a":"hgfhjgfjfgf",
+                    "b":"ghghhghghgh"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

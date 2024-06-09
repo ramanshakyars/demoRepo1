@@ -17,6 +17,13 @@ import {MatIconModule} from '@angular/material/icon';
 import { HomeComponent } from './Components/home/home.component';
 import {MatSidenavModule,MatSidenavContent} from '@angular/material/sidenav';
 import { NavbarComponent } from './Components/navbar/navbar.component';
+import { TabledataComponent } from './components/tabledata/tabledata.component';
+import { DatatableComponent } from './Components/datatable/datatable.component';
+import { HttpClient } from '@angular/common/http';
+import { FilterdataComponent } from './filterdata/filterdata.component';
+import { FilterPipe } from './filter.pipe';
+import { MergedArrayComponent } from './merged-array/merged-array.component';
+import { PracticeConceptsComponent } from './practice-concepts/practice-concepts.component';
 // import {  } from '@angular/material/sidenav'; 
 
     
@@ -39,6 +46,12 @@ import { NavbarComponent } from './Components/navbar/navbar.component';
     HeaderComponent,
     HomeComponent,
     NavbarComponent,
+    TabledataComponent,
+    DatatableComponent,
+    FilterdataComponent,
+    FilterPipe,
+    MergedArrayComponent,
+    PracticeConceptsComponent,
    
   ],
   imports: [

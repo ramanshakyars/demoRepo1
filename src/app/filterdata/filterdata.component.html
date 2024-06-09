@@ -1,0 +1,15 @@
+<div>
+    <input type="text" [(ngModel)]="termFilter" placeholder="Filter by term"   />
+  
+    <div *ngFor="let letter of glossary">
+      <h3>{{ letter.name }}</h3>
+      <ul>
+        <li *ngFor="let description of letter.descriptions | filter: termFilter">
+          <strong>{{ description.term }}:</strong> {{ description.definition }}
+          <br />
+          <em>Example:</em> {{ description.example || 'N/A' }}
+        </li>
+      </ul>
+    </div>
+  </div>
+  

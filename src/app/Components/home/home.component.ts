@@ -8,6 +8,23 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   showFiller = false;
+//   changeContent('Login/SignUp ')
+//   mobileMenu:any
+//   buttonContent:any
 
-  
+//   goOnHomepage(){
+
+//   }
+
+
+//  toggleMenu() {
+//   var mobileMenu = document.getElementById("mobile-menu");
+//   if (mobileMenu.style.display === "block") {
+//     mobileMenu.style.display = "none";
+//   } else {
+//     mobileMenu.style.display = "block";
+//   }
+// }
+
+
 }
